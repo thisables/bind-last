@@ -1,0 +1,37 @@
+{
+  "name": "bind-last",
+  "version": "0.0.0",
+  "description": "convert data-last functions into `::`-functions",
+  "license": "MIT",
+  "repository": "stoeffel/bind-last",
+  "author": {
+    "name": "Stoeffel",
+    "email": "schtoeffel@gmail.com",
+    "url": "stoeffel.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+		"develop": "nodangel --ignore node_modules --ignore 'npm run --silent test'",
+		"test": "mocha ./tests --compilers js:babel/register",
+    "transpile": "babel module --out-dir ./",
+    "prepublish": "npm run transpile",
+
+		"patch-release": "npm version patch && npm publish && git push --follow-tags",
+		"minor-release": "npm version minor && npm publish && git push --follow-tags",
+		"major-release": "npm version major && npm publish && git push --follow-tags"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "function",
+    "bind"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+		"babel": "^5.8.20"
+  }
+}
