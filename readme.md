@@ -33,6 +33,9 @@ assert.strictEqual(data::hasThisLast('nope'), false);
 If you’re wondering what the `::` thing means, you’d better read this excellent [overview](https://github.com/jussi-kalliokoski/trine/blob/5b735cbfb6b28ae94bac0446d9ecd5ce51fb149b/README.md#why) by [@jussi-kalliokoski](https://github.com/jussi-kalliokoski) or have a look at the [function bind syntax proposal](https://github.com/zenparsing/es-function-bind).
 
 
+## Related
+
+* [bind-first](https://github.com/stoeffel/bind-first) to convert data-first functions into `::`-functions
 
 ## License
 
