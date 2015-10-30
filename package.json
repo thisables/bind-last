@@ -1,6 +1,6 @@
 {
   "name": "@thisables/bind-last",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "convert data-last functions into `::`-functions",
   "license": "MIT",
   "repository": "thisables/bind-last",
