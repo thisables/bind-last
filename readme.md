@@ -1,4 +1,4 @@
-# bind-last [![Build Status](https://travis-ci.org/stoeffel/bind-last.svg?branch=master)](https://travis-ci.org/stoeffel/bind-last)
+# bind-last [![Build Status](https://travis-ci.org/thisables/bind-last.svg?branch=master)](https://travis-ci.org/thisables/bind-last)
 
 > convert data-last functions into `::`-functions
 
@@ -8,14 +8,14 @@ This is a converter function to make a data-last function working with [function
 ## Install
 
 ```
-$ npm install --save bind-last
+$ npm install --save @thisables/bind-last
 ```
 
 
 ## Usage
 
 ```js
-import { bindLast } from 'bind-last';
+import { bindLast } from '@thisables/bind-last';
 
 const data = { id: 1, name: 'foo' };
 
@@ -35,7 +35,7 @@ If you’re wondering what the `::` thing means, you’d better read this excell
 
 ## Related
 
-* [bind-first](https://github.com/stoeffel/bind-first) to convert data-first functions into `::`-functions
+* [bind-first](https://github.com/thisables/bind-first) to convert data-first functions into `::`-functions
 
 ## License
 
